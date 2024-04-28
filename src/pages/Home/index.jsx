@@ -1,5 +1,5 @@
 import "../../css/home.css";
-import Thumbnails from "../../components/thumbnail";
+import SectionCollapse from "../../components/collapse";
 import ProjectJson from "../../project.json";
 
 function Home() {
@@ -12,11 +12,7 @@ function Home() {
         <h1>Patrick CHARLETTE</h1>
         <h2>Web Developper Junior</h2>
       </section>
-
-      <section className="sectionprojects">
-        <h3>My Projects</h3>
-        <Thumbnails projectCard={ProjectJson} />
-      </section>
+      <SectionCollapse projectCard={ProjectJson} />
     </section>
   );
 }

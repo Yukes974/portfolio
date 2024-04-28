@@ -1,9 +1,9 @@
 import "../css/thumbnail.css";
-import booki from "../assets/booki.png";
-import ohmyfood from "../assets/ohmyfood.png";
-import lapanthere from "../assets/lapanthere.png";
-import kanap from "../assets/kanap.png";
-import kasa from "../assets/kasa.png";
+import booki from "../assets/booki.webp";
+import ohmyfood from "../assets/ohmyfood.webp";
+import lapanthere from "../assets/lapanthere.webp";
+import kanap from "../assets/kanap.webp";
+import kasa from "../assets/kasa.webp";
 
 function Thumbnail({ projectCard }) {
   const imgThumbnail = {
