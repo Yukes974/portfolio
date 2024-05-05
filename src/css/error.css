@@ -1,18 +1,18 @@
-div {
+.errorBox {
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
-h1 {
+.errorH1 {
   font-size: 80px;
 }
 
-h2 {
+.errorH2 {
   font-size: 30px;
 }
 
-a {
+.linkError404 {
   display: inline-block;
   text-align: center;
   font-size: 20px;

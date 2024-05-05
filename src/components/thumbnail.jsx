@@ -3,6 +3,7 @@ import booki from "../assets/booki.webp";
 import ohmyfood from "../assets/ohmyfood.webp";
 import lapanthere from "../assets/lapanthere.webp";
 import kanap from "../assets/kanap.webp";
+import piiquante from "../assets/piiquante.webp";
 import kasa from "../assets/kasa.webp";
 
 function Thumbnail({ projectCard }) {
@@ -11,7 +12,7 @@ function Thumbnail({ projectCard }) {
     2: ohmyfood,
     3: lapanthere,
     4: kanap,
-    5: "",
+    5: piiquante,
     6: kasa,
   };
   return (
@@ -22,6 +23,7 @@ function Thumbnail({ projectCard }) {
             <a href={project.url} target="_blank">
               <h4>{project.title}</h4>
               <img src={imgThumbnail[project.id]} alt={project.alt} />
+              <p className="descriptifproject">{project.descriptif}</p>
             </a>
           </div>
         );
